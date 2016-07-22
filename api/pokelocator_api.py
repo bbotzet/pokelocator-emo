@@ -434,13 +434,13 @@ def main(location=None, direction=None):
     original_long = FLOAT_LONG
     
     if direction == "south":
-        original_lat = original_lat-0.002
+        original_lat = original_lat-0.004
     elif direction == "west":
-        original_long = original_long-0.002
+        original_long = original_long-0.004
     elif direction == "north":
-        original_lat = original_lat+0.002
+        original_lat = original_lat+0.004
     elif direction == "east":
-        original_long = original_long+0.002
+        original_long = original_long+0.004
         
     print "Scanning...", original_lat, original_long
     
